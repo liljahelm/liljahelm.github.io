@@ -21,13 +21,13 @@
 }
 
 #karuselli {
-    background-color: #ffd6e4;
-    width: 90%;
-    max-width: 800px;
+    width: 70%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 #karuselli img {
+    width: 100%;
     height: 400px;
     object-fit: cover;
 }
