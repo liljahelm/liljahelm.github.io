@@ -22,8 +22,7 @@
 
 #karuselli {
     width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 #karuselli img {
