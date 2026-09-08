@@ -19,3 +19,15 @@
     background-color: #363131;
     color: #ffd6e4;
 }
+
+.karuselli {
+    background-color: #ffd6e4;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.karuselli img {
+    height: 400px;
+    object-fit: cover;
+}
