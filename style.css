@@ -1,4 +1,4 @@
-/* Navigaation taustan väri */
+/* Taustan väri */
 .navbar.custom {
     background-color: #ffd6e4;
 }
@@ -8,7 +8,7 @@
     color: #363131;
 }
 
-/* Linkin hover */
+/* Linkin hover väri */
 .navbar.custom .navbar-nav .nav-link:hover {
     background-color: #363131;
     color: #ffd6e4;
@@ -20,8 +20,7 @@
     color: #ffd6e4;
 }
 
-
-/* Karuselli */
+/* Karuselli ja kuvat */
 #karuselli {
     width: 70%;
 }
