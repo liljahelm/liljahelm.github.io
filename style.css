@@ -2,7 +2,6 @@
 body {
     background-color: #ecffda;
     font-family: "Fira Sans", sans-serif;
-    padding: 20px 15px;
 }
 
 /* Navigaation taustan väri */
@@ -39,6 +38,13 @@ body {
 }
 
 /* Kortin tyylit */
-card {
+/* .card {
     padding: 20px;
+} */
+
+/* Kontin tyylit */
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
