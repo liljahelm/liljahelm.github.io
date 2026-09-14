@@ -29,6 +29,7 @@ body {
 /* Karuselli ja kuvat */
 #karuselli {
     width: 100%;
+    padding: 20px;
 }
 
 #karuselli img {
@@ -43,12 +44,24 @@ body {
 }
 
 /* Kontin tyylit */
-
 .container {
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
+/* Haitarin tyylit */
 .accordion {
     padding: 20px;
+}
+
+/* Taulukon tyylit */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Taulukon otsikon tyylit */
+.table thead th {
+    background-color: #fff7d6;
+    color: #363131;
 }
