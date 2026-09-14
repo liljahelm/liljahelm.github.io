@@ -4,6 +4,21 @@ body {
     font-family: "Fira Sans", sans-serif;
 }
 
+/* Sivuston otsikon tyylit */
+.header {
+    color: #201b1b;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Tekstin tyylit */
+p {
+    color: #332c2c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Navigaation taustan väri */
 .navbar.custom {
     background-color: #ffd6e4;
