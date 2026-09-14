@@ -39,10 +39,55 @@
 
   <!-- Pääsisältö -->
     <main id="etusivu" class="container">
-        <h1>Bootstrap-sivu</h1>
-        <p>Tämä sisältö on .container-luokan sisällä.</p>
-        <p>.container-luokka tarjoaa responsiivisen kiinteän leveyskontainerin.</p>
-        <p>Muuta selaimen ikkunan kokoa nähdäksesi, miten kontainerin leveys muuttuu eri katkaisupisteissä.</p>
+        <h1>Etusivu</h1>
+        <p>Tämä sivusto on osa tietojenkäsittelyn opintoja.</p>
+        <p>Sivustolla esitellään kuvitteelisen yrityksen toimintaa.</p>
+
+        <!-- Haitari -->
+         <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    1. Tietoa yrityksestä
+                </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    2. Vastuullisuus
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                    3. Usein kysyttyä
+                </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+                </div>
+            </div>
+
+            </div>
+
+
     </main>
 </body>
 </html>
