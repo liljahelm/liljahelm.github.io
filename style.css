@@ -38,15 +38,15 @@ body {
 }
 
 /* Kortin tyylit */
-/* .card {
+.card {
     padding: 20px;
-} */
+}
 
 /* Kontin tyylit */
 
 .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .accordion {
