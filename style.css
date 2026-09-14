@@ -2,6 +2,7 @@
 body {
     background-color: #ecffda;
     font-family: "Fira Sans", sans-serif;
+    padding: 20px 15px;
 }
 
 /* Navigaation taustan väri */
@@ -35,4 +36,9 @@ body {
     width: 100%;
     height: 600px;
     object-fit: cover;
+}
+
+/* Kortin tyylit */
+card {
+    padding: 20px;
 }
