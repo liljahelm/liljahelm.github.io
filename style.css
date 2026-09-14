@@ -1,20 +1,26 @@
-/* Taustan väri */
+/* Sivuston body-elementin tyylit */
+body {
+    background-color: #ecffda;
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* Navigaation taustan väri */
 .navbar.custom {
     background-color: #ffd6e4;
 }
 
-/* Linkkien väri */
+/* Navigaation linkkien väri */
 .navbar.custom .navbar-nav .nav-link {
     color: #363131;
 }
 
-/* Linkin hover väri */
+/* Navigaatiolinkin hover-väri */
 .navbar.custom .navbar-nav .nav-link:hover {
     background-color: #363131;
     color: #ffd6e4;
 }
 
-/* Aktiivinen linkki */
+/* Navigaation aktiivinen linkki */
 .navbar.custom .navbar-nav .nav-link.active {
     background-color: #363131;
     color: #ffd6e4;
