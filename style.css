@@ -97,11 +97,13 @@ p {
 }
 
 /* Tumma tila */
+/* Tumma tila koko sivuston body-elementissä */
 body.dark-mode {
     background-color: #333;
     color: #fff;
 }
 
+/* Tumma tila navigaatiopalkissa */
 body.dark-mode .navbar.custom {
     background-color: #555;
 }
@@ -110,22 +112,30 @@ body.dark-mode .navbar.custom .navbar-nav .nav-link {
     color: #fff;
 }
 
-body.dark-mode .navbar.custom .navbar-nav .nav-link:hover {
+body.dark-mode .navbar.custom .nav-link:hover,
+body.dark-mode .navbar.custom .nav-link.active {
     background-color: #777;
-    color: #333;
+    color: #fff;
 }
 
-body.dark-mode .navbar.custom .navbar-nav .nav-link.active {
-    background-color: #777;
-    color: #333;
-}
-
+/* Tumma tila teksteissä */
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
 body.dark-mode p,
-body.dark-mode li,
-body.dark-mode td,
-body.dark-mode th {
+body.dark-mode li {
     color: #fff;
+}
+
+/* Tumma tila taulukossa */
+
+body.dark-mode .table th {
+    background-color: #333;
+    color: white;
+}
+
+body.dark-mode .table td {
+    background-color: #444;
+    color: white;
+    border-color: #777;
 }
