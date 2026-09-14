@@ -112,3 +112,13 @@ body.dark-mode .navbar.custom .navbar-nav .nav-link.active {
     background-color: #777;
     color: #333;
 }
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode td,
+body.dark-mode th {
+    color: #fff;
+}
