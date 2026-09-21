@@ -1,12 +1,11 @@
 // JS hakee käyttäjän GitHub-projektit ja lisää ne sivulle
-
+// Tämän koodin muodostamiseen on käytetty tekoälyä. Pyysin ChatGPT:tä kirjoittamaan koodin, joka hakee GitHub-projektit ja lisää ne HTML-sivulle. Koodi on muokattu ja testattu toimivaksi.
 const username = "liljahelm"; 
 
 fetch(`https://api.github.com/users/${username}/repos`)
     .then(response => response.json())
     .then(repositories => {
 
-        // Muuttuja HTML elementille, johon projektit lisätään
         const container = document.getElementById("github-projects");
 
         repositories.forEach(repo => {
@@ -24,6 +23,8 @@ fetch(`https://api.github.com/users/${username}/repos`)
                                 ${repo.description || "Ei kuvausta"}
                             </p>
 
+                        
+                    
                             <a href="${repo.html_url}"
                                target="_blank"
                                class="btn btn-primary">
