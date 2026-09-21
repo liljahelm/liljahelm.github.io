@@ -1,0 +1,56 @@
+/* Sivuston body-elementin tyylit */
+body {
+    background-color: #ecffda;
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* Kontin tyylit */
+.container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* Sivuston otsikon tyylit */
+.header {
+    color: #201b1b;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+
+/* Leipätekstin tyylit */
+p {
+    color: #332c2c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Navigaation taustan väri */
+.navbar.custom {
+    background-color: #ffd6e4;
+}
+
+/* Navigaation linkkien väri */
+.navbar.custom .navbar-nav .nav-link {
+    color: #363131;
+}
+
+/* Navigaatiolinkin hover-väri */
+.navbar.custom .navbar-nav .nav-link:hover {
+    background-color: #363131;
+    color: #ffd6e4;
+}
+
+/* Navigaation aktiivinen linkki */
+.navbar.custom .navbar-nav .nav-link.active {
+    background-color: #363131;
+    color: #ffd6e4;
+}
+
+/* Toteutus-sivun kuva */
+.toteutus-kuva {
+    width: 300px;
+}
