@@ -10882,12 +10882,6 @@ p.lead {
   color: #800040;
 }
 
-/* Päivitetty aktiivisen linkin muotoilu */
-#sideNav .nav-link.active {
-    color: #800040;
-    font-weight: bold !important;
-}
-
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -10981,4 +10975,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#sideNav .navbar-nav .nav-link.active {
+    color: #800040 !important;
+    font-weight: 700 !important;
 }
