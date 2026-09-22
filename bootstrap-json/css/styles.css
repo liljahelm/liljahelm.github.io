@@ -35,7 +35,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   /*muutettu pääväri*/
-  --bs-primary: #fdacdf;
+  --bs-primary: #ffc8eb;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -44,7 +44,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   /*muutettu päävärin rbg*/
-  --bs-primary-rgb: 253, 172, 223;
+  --bs-primary-rgb: 255, 200, 235;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
