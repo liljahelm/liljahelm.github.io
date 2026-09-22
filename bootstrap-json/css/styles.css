@@ -10878,7 +10878,16 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+/* Päivitetty tekstin väri*/
+  color: #800040;
 }
+
+/* Päivitetty aktiivisen linkin muotoilu */
+#sideNav .nav-link.active {
+    color: #800040;
+    font-weight: bold;
+}
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
