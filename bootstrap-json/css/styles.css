@@ -10977,7 +10977,13 @@ section.resume-section .resume-section-content {
   }
 }
 
-#sideNav .navbar-nav .nav-link.active {
+/* Kustomoitu navigaation tyyli*/
+#sideNav .nav-link {
+    color: #800040 !important;
+    font-weight: 400 !important;
+}
+
+#sideNav .nav-link.active {
     color: #800040 !important;
     font-weight: 700 !important;
 }
