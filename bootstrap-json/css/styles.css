@@ -10885,7 +10885,7 @@ p.lead {
 /* Päivitetty aktiivisen linkin muotoilu */
 #sideNav .nav-link.active {
     color: #800040;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 #sideNav .navbar-toggler:focus {
