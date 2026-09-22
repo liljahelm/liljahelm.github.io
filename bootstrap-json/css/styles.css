@@ -35,7 +35,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   /*muutettu pääväri*/
-  --bs-primary: #e0a2bd;
+  --bs-primary: #D23775;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -76,8 +76,8 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   /*muutettu linkin värit*/
-  --bs-link-color: #ff9ec8;
-  --bs-link-hover-color: #ff57a0;
+  --bs-link-color: #D23775;
+  --bs-link-hover-color: #8b003c;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }

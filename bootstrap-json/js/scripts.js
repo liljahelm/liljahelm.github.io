@@ -31,6 +31,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Tooltip Taidot-osion kuvakkeille
     const tooltipTriggerList = document.querySelectorAll(
             '[data-bs-toggle="tooltip"]'
         );
