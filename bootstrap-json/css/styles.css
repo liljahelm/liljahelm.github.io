@@ -35,7 +35,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   /*muutettu pääväri*/
-  --bs-primary: #24ac51;
+  --bs-primary: #D23775;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -44,7 +44,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   /*muutettu päävärin rbg*/
-  --bs-primary-rgb: 224, 162, 189;
+  --bs-primary-rgb: 210, 55, 117;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -79,7 +79,7 @@
   --bs-link-color: #D23775;
   --bs-link-hover-color: #8b003c;
   --bs-code-color: #d63384;
-  --bs-highlight-bg: #ffffff;
+  --bs-highlight-bg: #fff3cd;
 }
 
 *,
