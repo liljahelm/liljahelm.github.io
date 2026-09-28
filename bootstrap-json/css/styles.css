@@ -10988,3 +10988,11 @@ section.resume-section .resume-section-content {
     font-weight: 700 !important;
 }
 
+.tooltip {
+    background-color: red !important;
+}
+
+.tooltip-inner {
+    background-color: red !important;
+    color: yellow !important;
+}
