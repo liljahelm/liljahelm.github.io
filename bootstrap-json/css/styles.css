@@ -10987,3 +10987,9 @@ section.resume-section .resume-section-content {
     color: #800040 !important;
     font-weight: 700 !important;
 }
+
+/* Kustomoitu tooltip-tyyli */
+.custom-tooltip {
+    --bs-tooltip-bg: #800040;
+    --bs-tooltip-color: #FFE1F0;
+}
