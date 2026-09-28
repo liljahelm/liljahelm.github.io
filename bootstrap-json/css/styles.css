@@ -10990,6 +10990,6 @@ section.resume-section .resume-section-content {
 
 /* Kustomoitu tooltip-tyyli */
 .custom-tooltip {
-    --bs-tooltip-bg: #800040;
-    --bs-tooltip-color: #FFE1F0;
+    --bs-tooltip-bg: #800040 !important;
+    --bs-tooltip-color: #FFE1F0 !important;
 }
