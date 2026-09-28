@@ -10987,3 +10987,8 @@ section.resume-section .resume-section-content {
     color: #800040 !important;
     font-weight: 700 !important;
 }
+
+/* Kortin kustomoitu otsikkokoko */
+.card h2 {
+    font-size: 1.5rem !important;
+}
