@@ -10988,11 +10988,12 @@ section.resume-section .resume-section-content {
     font-weight: 700 !important;
 }
 
-.tooltip {
-    background-color: red !important;
+/* Kustomoitu tooltip-tyyli */
+.tooltip .tooltip-inner {
+    background-color: #800040 !important;
+    color: #FFE1F0 !important;
 }
 
-.tooltip-inner {
-    background-color: red !important;
-    color: yellow !important;
+.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #800040 !important;
 }

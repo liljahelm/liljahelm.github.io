@@ -7,11 +7,7 @@
 // Scripts
 // 
 
-console.log("scripts.js toimii");
-
 window.addEventListener('DOMContentLoaded', event => {
-
-    console.log("tooltip-koodi toimii");
 
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
