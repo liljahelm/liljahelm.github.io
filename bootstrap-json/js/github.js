@@ -18,9 +18,9 @@ fetch(`https://api.github.com/users/${username}/repos`)
                     <div class="card h-100 shadow-sm">
 
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h2 class="card-title">
                                 ${repo.name}
-                            </h5>
+                            </h2>
 
                             <p class="card-text">
                                 ${repo.description || "Ei kuvausta"}
